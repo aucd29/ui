@@ -61,7 +61,7 @@ public class ColorSelector {
 
     public Drawable getDrawable(int color) {
         if (mColorMap == null) {
-            mColorMap = new HashMap<Integer, ColorDrawable>();
+            mColorMap = new HashMap<>();
         }
 
         if (mColorMap.get(color) == null) {

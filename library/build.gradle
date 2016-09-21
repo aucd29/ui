@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
+//apply plugin: 'com.github.dcendents.android-maven'
 
 android {
     compileSdkVersion 23
@@ -8,8 +8,8 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 23
-        versionCode 4
-        versionName "1.0.4"
+        versionCode 1
+        versionName "1.0.5"
     }
     buildTypes {
         release {
@@ -23,7 +23,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
 
-    compile 'com.github.aucd29:common:1.0.9'
+    compile 'com.github.aucd29:common:1.0.14'
 }
 
 // build a jar with source files
