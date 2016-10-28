@@ -1,4 +1,5 @@
 # ui
+[![Build Status](https://travis-ci.org/aucd29/ui.svg?branch=master)](https://travis-ci.org/aucd29/ui)
 
 Add it to your build.gradle with:
 ```gradle
